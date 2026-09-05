@@ -1,0 +1,13 @@
+version: 1
+repository: davlindh/domain-drifter
+purpose: Domain/context boundary and contextual navigation experiment for Omniframez.
+status: architecture-research
+canonical_parent: Omniframez
+capabilities: [domains, contextual-navigation, boundary-reasoning]
+vertical: control-plane
+omniframez_role: context-architecture-experiment
+evidence: {confidence: inferred, sources: [repository-name, repository-history]}
+harvest_action: preserve-and-integrate-concepts
+relations:
+  - contributes_to: Context Engine
+  - informs: Semantic Code Bridge domain model
